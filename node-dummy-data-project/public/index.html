@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rocketium</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=SF+Pro+Display:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Rocketium</div>
+            <div class="nav-links">
+                <a href="#" class="active">Home</a>
+                <a href="#">Products</a>
+                <a href="#">About</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <div class="hero">
+        <h1>Discover your favourites</h1>
+        <p>Explore our curated collection of cutting-edge gadgets and accessories.</p>
+    </div>
+    <div class="container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search products...">
+            <select id="categoryFilter">
+                <option value="">All Categories</option>
+            </select>
+            <select id="sortOption">
+                <option value="">Sort by...</option>
+                <option value="price:asc">Price: Low to High</option>
+                <option value="price:desc">Price: High to Low</option>
+                <option value="rating:desc">Highest Rated</option>
+            </select>
+        </div>
+        <div id="productList" class="product-list"></div>
+    </div>
+    <footer>
+        <p>&copy; 2024 SuryanshD. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
